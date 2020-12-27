@@ -37,6 +37,8 @@ print(c1*c3)
 
 
 #part2
+
+#thanks @pwschneider <3
 dict_adapters = {}
 
 def search_pairs(adapter, adapters):
