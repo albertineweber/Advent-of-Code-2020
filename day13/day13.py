@@ -36,11 +36,6 @@ earliest_bus = frequency[index_min]
 
 print(earliest_bus*min_waiting_time)
 
-base_time = frequency[0]
-
-
-flagdo = 0
-
 x = 1
 num = 0
 
