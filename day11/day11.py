@@ -1,5 +1,3 @@
-import copy
-
 arq = open('input11.txt', 'r')
 
 automata = []
