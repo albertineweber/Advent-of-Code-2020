@@ -12,9 +12,6 @@ for line in arq:
 
 while i <= 30000000:
 #while i <= 2020:
-    if i%100000 == 0:
-        print(i)
-
     if dict_numbers[last_num][0] == 0:
         new_last_num = 0
 
