@@ -316,8 +316,7 @@ def part1(
         new_grid_dict = create_next_layer(current_grid)
         # plot_grid(new_grid_dict, 0)
         updated_grid = update_grid(new_grid_dict)
-        # if iteration == 1:
-        #     plot_grid(updated_grid, 0)
+        # plot_grid(updated_grid, 0)
         current_grid = copy.deepcopy(updated_grid)
 
     count_activated = 0
